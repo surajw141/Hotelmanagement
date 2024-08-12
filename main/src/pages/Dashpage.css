@@ -1,0 +1,127 @@
+.room-1-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.modern-spacious {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.enjoy-your-holidays,
+.modern-spacious {
+  position: relative;
+  z-index: 1;
+}
+.enjoy-your-holidays-at-the-hot-wrapper {
+  width: 1236px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-poppins);
+}
+.enjoy-your-holidays-at-the-hot-wrapper,
+.frame-wrapper,
+.modern-spacious-rooms-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.modern-spacious-rooms-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 45px;
+}
+.frame-wrapper {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 76px;
+  box-sizing: border-box;
+}
+.frame-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 163px;
+  max-width: 100%;
+}
+.dashpage,
+.dashpage-inner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.dashpage-inner {
+  width: 1902px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: 80px;
+  color: var(--color-white);
+  font-family: var(--font-montserrat-subrayada);
+}
+.dashpage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 132px;
+  gap: 293px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1325px) {
+  .frame-wrapper {
+    padding-left: var(--padding-19xl);
+    padding-right: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    gap: 81px;
+  }
+  .dashpage {
+    gap: 146px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .modern-spacious {
+    font-size: 40px;
+  }
+  .modern-spacious-rooms-parent {
+    gap: 22px;
+  }
+  .frame-parent {
+    gap: 41px;
+  }
+  .dashpage {
+    gap: 73px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .modern-spacious {
+    font-size: 24px;
+  }
+  .enjoy-your-holidays {
+    font-size: var(--font-size-xl);
+  }
+  .frame-parent {
+    gap: var(--gap-xl);
+  }
+}

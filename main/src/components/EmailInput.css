@@ -1,0 +1,90 @@
+.email-input-child {
+  height: 114px;
+  width: 1424px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  display: none;
+  max-width: 100%;
+}
+.facebook-sign-in {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 45px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray);
+  z-index: 2;
+}
+.facebook-sign-in-wrapper {
+  width: 429px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.google-icon-container {
+  border: 0;
+  background-color: transparent;
+  height: 45px;
+  width: 412px;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray);
+  max-width: 100%;
+  z-index: 2;
+}
+.password-input-child {
+  height: 45px;
+  width: 412px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  display: none;
+  max-width: 100%;
+}
+.check-availability {
+  position: relative;
+  z-index: 3;
+}
+.email-input,
+.password-input1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.password-input1 {
+  width: 412px;
+  background-color: var(--color-darkslategray);
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-xl) var(--padding-10xs)
+    var(--padding-13xl);
+  white-space: nowrap;
+  z-index: 2;
+}
+.email-input {
+  background-color: var(--color-gainsboro-100);
+  justify-content: flex-start;
+  padding: var(--padding-15xl) var(--padding-15xl) var(--padding-16xl)
+    var(--padding-16xl);
+  gap: var(--gap-32xl);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1700px) {
+  .email-input {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 900px) {
+  .email-input {
+    gap: var(--gap-6xl);
+  }
+}
